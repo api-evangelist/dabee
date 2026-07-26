@@ -1,7 +1,25 @@
 aid: dabee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dabee.png
 name: Dabee
-description: Dabee is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Dabee (dabee.com.br) is a Brazilian consumer-technology review and comparison
+  website that helps shoppers make informed purchasing decisions about electronics and gadgets.
+  It publishes hands-on reviews, side-by-side comparisons, and buying guides across notebooks,
+  smartphones, tablets, monitors, smartwatches, gaming consoles, smart TVs, and networking
+  equipment, with ''vale a pena'' (is-it-worth-it) verdicts and price tracking pulled from
+  Amazon Brazil. The site monetizes through affiliate commissions. As of this profile it
+  exposes no public developer API, documentation, or developer portal; it was surfaced as a
+  500 Global portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/dabee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Reviews
+- Consumer Electronics
+- Comparison Shopping
+- Affiliate
+- Ecommerce
+- Brazil
+- Content
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://dabee.com.br
+- type: PrivacyPolicy
+  url: https://dabee.com.br/politica-privacidade/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
